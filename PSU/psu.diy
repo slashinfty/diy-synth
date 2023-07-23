@@ -617,7 +617,7 @@
     </diylc.semiconductors.DiodePlastic>
     <diylc.passive.RadialElectrolytic>
       <name>C1</name>
-      <alpha>127</alpha>
+      <alpha>82</alpha>
       <length value="16.0" unit="mm"/>
       <points>
         <point x="3.6" y="3.0"/>
@@ -633,7 +633,7 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <pinSpacing value="0.1" unit="in"/>
+      <pinSpacing value="0.3" unit="in"/>
       <value value="3300.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="35.0" unit="V"/>
@@ -646,7 +646,7 @@
     </diylc.passive.RadialElectrolytic>
     <diylc.passive.RadialElectrolytic>
       <name>C3</name>
-      <alpha>127</alpha>
+      <alpha>82</alpha>
       <length value="16.0" unit="mm"/>
       <points>
         <point x="4.3" y="3.0"/>
@@ -662,7 +662,7 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <pinSpacing value="0.1" unit="in"/>
+      <pinSpacing value="0.3" unit="in"/>
       <value value="3300.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="35.0" unit="V"/>
@@ -675,7 +675,7 @@
     </diylc.passive.RadialElectrolytic>
     <diylc.passive.RadialElectrolytic>
       <name>C2</name>
-      <alpha>127</alpha>
+      <alpha>82</alpha>
       <length value="16.0" unit="mm"/>
       <points>
         <point x="3.6" y="4.0"/>
@@ -691,7 +691,7 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <pinSpacing value="0.1" unit="in"/>
+      <pinSpacing value="0.3" unit="in"/>
       <value value="3300.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="35.0" unit="V"/>
@@ -704,7 +704,7 @@
     </diylc.passive.RadialElectrolytic>
     <diylc.passive.RadialElectrolytic>
       <name>C4</name>
-      <alpha>127</alpha>
+      <alpha>82</alpha>
       <length value="16.0" unit="mm"/>
       <points>
         <point x="4.3" y="4.0"/>
@@ -720,7 +720,7 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <pinSpacing value="0.1" unit="in"/>
+      <pinSpacing value="0.3" unit="in"/>
       <value value="3300.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="35.0" unit="V"/>
