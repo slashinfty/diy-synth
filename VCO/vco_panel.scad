@@ -1,23 +1,22 @@
-include <../EuroRackMaker/EuroPanelMaker/panel.scad>
-include <../EuroRackMaker/constants.scad>
+include <../EuroRackMaker/CustomPanel.scad>
 
-hp = 16;
+hp = 18;
 title = "VCO";
 
 pots = [
-    [5, 100, "Coarse"],
-    [11, 100, "Fine"],
-    [3, 70, "FM CV"],
-    [8, 70, "PWM"],
-    [13, 70, "PWM CV"]
+    [6, 100, "Coarse"],
+    [12, 100, "Fine"],
+    [4, 70, "FM CV"],
+    [9, 70, "PWM"],
+    [14, 70, "PWM CV"]
 ];
 
 jacks = [
-    [3, 40, "FM CV"],
-    [8, 40, "1V/OCT"],
-    [13, 40, "PWM CV"],
-    [5, 20, "Saw"],
-    [11, 20, "Square"]
+    [4, 40, "FM CV"],
+    [9, 40, "1V/Oct"],
+    [14, 40, "PWM CV"],
+    [6, 20, "Saw"],
+    [12, 20, "Pulse"]
 ];
 
-generatePanel();
+panel();

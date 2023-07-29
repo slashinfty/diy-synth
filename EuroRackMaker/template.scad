@@ -1,5 +1,4 @@
-//include <../EuroRackMaker/EuroPanelMaker/panel.scad>
-//include <../EuroRackMaker/constants.scad>
+//include <../EuroRackMaker/CustomPanel.scad>
 
 hp = 8;
 title = "";
@@ -20,4 +19,4 @@ leds = [
     
 ];
 
-//generatePanel();
+//panel();
