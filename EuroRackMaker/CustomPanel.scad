@@ -35,7 +35,23 @@ module tabs() {
     }
 }
 
+module dc_jack() {
+    
+}
+
+module generate_dc_jacks(params, width) {
+    translate([width, params[1], component_depth])
+    rotate([0, 0, params[3] ? params[3] : 0])
+    dc_jack();
+
+    translate([width, params[1] + jack_label_distance, panel_thickness - text_depth])
+    linear_extrude(height = text_depth + 1)
+    text(params[2], font = label_font, size = jack_label_font_size, halign = "center", valign = "center");
+}
+
 module panel() {
+    dc_jacks = [];
+    
     // Flip panel
     translate(panel_flipped ? [panel_translate_x, 0, panel_translate_z] : [0, 0, 0])
     rotate(panel_flipped ? [0, panel_rotate, 0] : [0, 0, 0])
@@ -49,9 +65,19 @@ module panel() {
             tabs();
         }
         
-        // loop
+        union() {
+            for (idx = [0 : len(dc_jacks)]) {
+                if (dc_jacks[idx]) {
+                    echo("DC JACK:", idx = dc_jacks[idx]);
+                    generate_dc_jacks(dc_jacks[idx], eurorack_w * dc_jacks[idx][0]);
+                }
+            }
+        }
     }
 }
 
+dc_jack();
 // Testing
+/*
 panel();
+*/
