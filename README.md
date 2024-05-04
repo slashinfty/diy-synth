@@ -3,11 +3,11 @@
 Current plans:
 
 - VCO #1
+  - [http://www.fonitronik.de/application/files/7915/5922/3259/TH-VCO-MAXIMUS.pdf](http://www.fonitronik.de/application/files/7915/5922/3259/TH-VCO-MAXIMUS.pdf)
+  - Positive polarity only
+- VCO #2
   - [https://github.com/kassu/kassutronics/blob/master/documentation/VCO 3340/VCO3340_docs_v2.1_A.pdf](<https://github.com/kassu/kassutronics/blob/master/documentation/VCO 3340/VCO3340_docs_v2.1_A.pdf>)
   - Single V/Oct input
-- VCO #2
-  - [https://www.lookmumnocomputer.com/projects#/cem-3340-diy-simple](https://www.lookmumnocomputer.com/projects#/cem-3340-diy-simple)
-  - Add square output with PWM CV
 - LFO
   - [https://www.davidhaillant.com/simple-lfo-1-5/](https://www.davidhaillant.com/simple-lfo-1-5/)
   - No rate range switch (pick cap in between?)
