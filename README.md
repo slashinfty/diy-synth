@@ -58,3 +58,7 @@ Current plans:
   - 16 step pattern switches (input read by 74HC147)
   - LEDs on each step (output by 2x74HC595 - on/off XOR current step)
   - Mixer with master output volume and stereo out jack
+
+For case building:
+- Rails
+  - [https://www.thingiverse.com/thing:2489238](https://www.thingiverse.com/thing:2489238)
