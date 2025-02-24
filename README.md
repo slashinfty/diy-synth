@@ -3,16 +3,17 @@
 Current plans:
 
 - VCO #1
-  - [http://www.fonitronik.de/application/files/7915/5922/3259/TH-VCO-MAXIMUS.pdf](http://www.fonitronik.de/application/files/7915/5922/3259/TH-VCO-MAXIMUS.pdf)
-  - Positive polarity only
-- VCO #2
   - [https://github.com/kassu/kassutronics/blob/master/documentation/VCO 3340/VCO3340_docs_v2.1_A.pdf](<https://github.com/kassu/kassutronics/blob/master/documentation/VCO 3340/VCO3340_docs_v2.1_A.pdf>)
   - Single V/Oct input
+- VCO #2
+  - [http://www.fonitronik.de/application/files/7915/5922/3259/TH-VCO-MAXIMUS.pdf](http://www.fonitronik.de/application/files/7915/5922/3259/TH-VCO-MAXIMUS.pdf)
+  - Positive polarity only on sub
 - LFO
   - [https://www.davidhaillant.com/simple-lfo-1-5/](https://www.davidhaillant.com/simple-lfo-1-5/)
-  - No rate range switch (pick cap in between?)
+  - Build two on one
 - VCA
   - [https://benjiaomodular.com/post/2021-12-17-lm13700-vca/](https://benjiaomodular.com/post/2021-12-17-lm13700-vca/)
+  - Build two on one
   - Replace one CV input with offset pot
   - ![](https://i.ibb.co/BCCPWVw/vca-offset.png)
 - VCF
@@ -21,6 +22,8 @@ Current plans:
   - ![](https://i.ibb.co/wNV5pfZ/vcf-diodes.png)
 - Envelope
   - [https://benjiaomodular.com/post/2022-02-02-mini-adsr/](https://benjiaomodular.com/post/2022-02-02-mini-adsr/)
+- VC Clock & Divider
+  - [http://www.modular.fonik.de/Page49.html](http://www.modular.fonik.de/Page49.html)
 - Wavefolder
   - [https://www.gerbster.nl/eurorack/wave-folder/](https://www.gerbster.nl/eurorack/wave-folder/)
   - Remove audio-in level
@@ -33,14 +36,19 @@ Current plans:
   - Remove left output to output mono
 - Sequential Switch
   - [https://www.doepfer.de/faq/a151_sch.gif](https://www.doepfer.de/faq/a151_sch.gif)
-- Noise
+- Noise??
   - ![](https://i.ibb.co/TmdFMkD/noise-filter.jpg)
   - ![](https://i.ibb.co/5ByjQMj/noise-gate.jpg)
+- Chaos
+  - [https://www.nonlinearcircuits.com/modules/p/1u-sloth-chaos](https://www.nonlinearcircuits.com/modules/p/1u-sloth-chaos)
+  - Build torpor and apathy
+- Difference Rectifier
+  - [https://www.nonlinearcircuits.com/modules/p/1u-diff-rect](https://www.nonlinearcircuits.com/modules/p/1u-diff-rect)
+  - Build two on one
 - Sequencer
   - [https://benjiaomodular.com/post/2021-04-09-8-step-sequencer/](https://benjiaomodular.com/post/2021-04-09-8-step-sequencer/)
-  - Combine 3 random gates from noise and a CD4051 for random step selection
 - Mixer
-  - [https://syntherjack.net/portable-audio-mixer/](https://syntherjack.net/portable-audio-mixer/)
+  - [https://musicfromouterspace.com/analogsynth_new/OLDIESBUTGOODIES/AUDIOMIXER/panningmixer.html](https://musicfromouterspace.com/analogsynth_new/OLDIESBUTGOODIES/AUDIOMIXER/panningmixer.html)
 - Drum Machine
   - [https://www.gerbster.nl/tr82/](https://www.gerbster.nl/tr82/)
   - Trigger push button and output jack on each drum source
