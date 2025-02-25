@@ -74,6 +74,8 @@ Current plans:
 - MIDI-to-CV
   - [https://github.com/peterzimon/pico-midi2cv](https://github.com/peterzimon/pico-midi2cv)
   - Remove hardware pitch bend
+  - [https://github.com/rppicomidi/midi2usbhost](https://github.com/rppicomidi/midi2usbhost)
+  - External power
 - Drum Machine
   - [https://www.gerbster.nl/tr82/](https://www.gerbster.nl/tr82/)
   - Trigger push button and output jack on each drum source
