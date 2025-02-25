@@ -13,6 +13,7 @@ Checklist (in order):
 - [ ] Delay
 - [ ] VCO #2
 - [ ] Wavefolder
+- [ ] Logic
 - [ ] VC Clock
 - [ ] Sequencer
 - [ ] Divider
@@ -67,6 +68,10 @@ Current plans:
 - Difference Rectifier
   - [https://www.nonlinearcircuits.com/modules/p/1u-diff-rect](https://www.nonlinearcircuits.com/modules/p/1u-diff-rect)
   - Build two on one
+- Logic
+  - [https://github.com/nickajeglin/Eurorack-pcbs/blob/master/analog%20logic%20module/schematic.pdf](https://github.com/nickajeglin/Eurorack-pcbs/blob/master/analog%20logic%20module/schematic.pdf)
+  - Remove J3-J6 (J3 becomes offset)
+  - Remove comparator (trigger)
 - Sequencer
   - [https://benjiaomodular.com/post/2021-04-09-8-step-sequencer/](https://benjiaomodular.com/post/2021-04-09-8-step-sequencer/)
 - Mixer
