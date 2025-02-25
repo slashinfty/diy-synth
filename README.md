@@ -1,5 +1,27 @@
 # diy-synth
 
+Checklist (in order):
+
+- [ ] VCO #1
+- [ ] Mixer
+- [ ] MIDI-to-CV
+- [ ] LFO
+- [ ] VCA
+- [ ] VCF
+- [ ] ADSR
+- [ ] Mult
+- [ ] Delay
+- [ ] VCO #2
+- [ ] Wavefolder
+- [ ] VC Clock
+- [ ] Sequencer
+- [ ] Divider
+- [ ] Chaos
+- [ ] Diff
+- [ ] Switch
+- [ ] Reverb
+- [ ] Noise
+
 Current plans:
 
 - VCO #1
@@ -49,6 +71,9 @@ Current plans:
   - [https://benjiaomodular.com/post/2021-04-09-8-step-sequencer/](https://benjiaomodular.com/post/2021-04-09-8-step-sequencer/)
 - Mixer
   - [https://musicfromouterspace.com/analogsynth_new/OLDIESBUTGOODIES/AUDIOMIXER/panningmixer.html](https://musicfromouterspace.com/analogsynth_new/OLDIESBUTGOODIES/AUDIOMIXER/panningmixer.html)
+- MIDI-to-CV
+  - [https://github.com/peterzimon/pico-midi2cv](https://github.com/peterzimon/pico-midi2cv)
+  - Remove hardware pitch bend
 - Drum Machine
   - [https://www.gerbster.nl/tr82/](https://www.gerbster.nl/tr82/)
   - Trigger push button and output jack on each drum source
