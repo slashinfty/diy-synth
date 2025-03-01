@@ -47,7 +47,7 @@ title = "Test";
 title_font_size = 4.5;
 title_font = "Overpass:style=Bold";
 title_x = w / 2;
-title_y = 118;
+title_y = 6;
 title_rotate = 0;
 
 pots = [];
