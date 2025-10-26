@@ -1,7 +1,7 @@
 include <EuroPanelMaker/panel.scad>
 
-hp = 13;
-title = "VCO";
+hp = 6;
+title = "";
 margin = 0; // Add extra width on each side for support
 
 /*
@@ -20,12 +20,8 @@ toggle_label_distance = 12;
 toggle_label_font_size = 3;
 */
 
-switch_label_distance = 9;
-
 pots = [ // x (in HP column), y (mm), label, rotation (degrees)
-    [10.5, 70, "PWM"],
-    [4, 100, ""],
-    [10.5, 95, "FINE"]
+    
 ];
 
 leds = [ // x (in HP column), y (mm), diameter (mm)
@@ -33,22 +29,20 @@ leds = [ // x (in HP column), y (mm), diameter (mm)
 ];
 
 jacks = [ // x (in HP column), y (mm), label, size, rotation (degrees)
-    [2, 18, "SIN"] ,
-    [5, 18, "TRI"],
-    [8, 18, "SAW"],
-    [11, 18, "SQR"],
-    [2, 44, "V/OCT"],
-    [5, 44, "LFM"],
-    [8, 44, "PWM"],
-    [2, 70, "SYNC"]
+    [3, 100, "CV OUT"] ,
+    [3, 70, "GATE OUT"]
 ];
 
 switches = [ // x (in HP column), y (mm), label above, label below, rotation (degrees)
-    [6.5, 70, "HARD", "SOFT"]
+
 ];
 
 labels = [ // x (in HP column), y (mm), label, rotation (degrees)
-    [4, 120, "FREQ"]
+
+];
+
+midis = [
+    [3, 30, "MIDI IN"]
 ];
 
 panel_flipped = !$preview; // flips on render for exporting

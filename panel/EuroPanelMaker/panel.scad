@@ -9,6 +9,7 @@ use <components/switch_sr16.scad>
 use <components/key.scad>
 use <components/spacer.scad>
 use <components/speaker.scad>
+use <components/midi.scad>
 
 use <fonts/Overpass-Black.ttf>
 use <fonts/Overpass-BlackItalic.ttf>
@@ -44,7 +45,7 @@ w = hp * eurorack_w;
 c = w / 2;
 
 title = "Test";
-title_font_size = 4.5;
+title_font_size = 6;
 title_font = "Overpass:style=Bold";
 title_x = w / 2;
 title_y = 6;
@@ -62,6 +63,7 @@ rectangular_holes = []; // [3, 100, x1, y1, x2, y2]
 circular_holes = []; // [3, 100, dia]
 spacers = [];
 speakers = []; // x (in HP column), y (mm), speaker hole diameter, mount diameter, distance between two opposite screws
+midis = [];
 
 pots_rd901f_mm = [];
 pots_mm = [];
@@ -76,17 +78,19 @@ circular_holes_mm = []; // [10, 100, dia]
 spacers_mm = [];
 
 label_font = "Overpass:style=Bold";
-label_font_size = 3;
+label_font_size = 4;
 pot_label_distance = 12;
-pot_label_font_size = 3;
+pot_label_font_size = 4;
 jack_label_distance = 8;
-jack_label_font_size = 3;
+jack_label_font_size = 4;
 jack_14in_label_distance = 12;
-jack_14in_label_font_size = 3;
+jack_14in_label_font_size = 4;
 switch_label_distance = 12;
-switch_label_font_size = 3;
+switch_label_font_size = 4;
 key_label_distance = 14;
-key_label_font_size = 3;
+key_label_font_size = 4;
+midi_label_distance = 14;
+midi_label_font_size = 4;
 
 // Flip panel for 3D printing
 panel_flipped = false;
@@ -278,6 +282,13 @@ module generatePanel() {
                     generate_speakers(speakers[idx], eurorack_w * speakers[idx][0]);
                 }
             }
+
+            for (idx = [0 : len(midis)]) {
+                if (midis[idx]) {
+                    echo("MIDI:", idx = midis[idx]);
+                    generate_midis(midis[idx], eurorack_w * midis[idx][0]);
+                }
+            }
             
         }
     }
@@ -462,6 +473,16 @@ module generate_keys(params, width){
 module generate_leds(params, width){
     translate([width, params[1], component_depth])
     #led(d = params[2]);
+}
+
+module generate_midis(params, width) {
+    translate([width, params[1], component_depth])
+    rotate([0, 0, params[3] ? params[3] : 0])
+    #midi();
+
+    translate([width, params[1] + midi_label_distance, panel_thickness - text_depth])
+    linear_extrude(height = text_depth + 1)
+    text(params[2], font = label_font, size = midi_label_font_size, halign = "center", valign = "center");
 }
 
 // uncomment the following line for testing, otherwise it causes panels to generate twice

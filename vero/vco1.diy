@@ -18,10 +18,10 @@
       <value></value>
       <controlPoints>
         <point x="3.9" y="2.9"/>
-        <point x="7.4" y="5.4"/>
+        <point x="7.3" y="5.4"/>
       </controlPoints>
       <firstPoint x="3.9" y="2.9"/>
-      <secondPoint x="7.4" y="5.4"/>
+      <secondPoint x="7.3" y="5.4"/>
       <boardColor hex="f8ebb3"/>
       <borderColor hex="ada47d"/>
       <coordinateColor hex="b6b6b6"/>
@@ -76,9 +76,9 @@
       <name>J5</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.9" y="3.5"/>
-        <point x="6.9" y="4.2"/>
-        <point x="6.9" y="3.85"/>
+        <point x="6.8" y="3.5"/>
+        <point x="6.8" y="4.2"/>
+        <point x="6.8" y="3.85"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -342,9 +342,9 @@
       <name>J9</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.8" y="3.5"/>
-        <point x="6.8" y="3.0"/>
-        <point x="6.8" y="3.25"/>
+        <point x="6.6" y="3.5"/>
+        <point x="6.6" y="3.0"/>
+        <point x="6.6" y="3.25"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -462,9 +462,9 @@
       <name>J13</name>
       <alpha>127</alpha>
       <points>
-        <point x="7.0" y="4.1"/>
-        <point x="7.0" y="3.1"/>
-        <point x="7.0" y="3.6"/>
+        <point x="6.9" y="4.1"/>
+        <point x="6.9" y="3.1"/>
+        <point x="6.9" y="3.6"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -522,7 +522,7 @@
       <name>Pad1</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="4.0"/>
+      <point x="7.2" y="4.0"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -531,7 +531,7 @@
       <name>Pad2</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="4.1"/>
+      <point x="7.2" y="4.1"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -540,7 +540,7 @@
       <name>Pad3</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="4.2"/>
+      <point x="7.2" y="4.2"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -549,7 +549,7 @@
       <name>Pad4</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="4.3"/>
+      <point x="7.2" y="4.3"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -558,7 +558,7 @@
       <name>Pad5</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="4.4"/>
+      <point x="7.2" y="4.4"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -594,7 +594,7 @@
       <name>Pad9</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="4.6"/>
+      <point x="7.2" y="4.6"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -603,7 +603,7 @@
       <name>Pad10</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="3.9"/>
+      <point x="7.2" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -612,7 +612,7 @@
       <name>Pad11</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.2" y="3.9"/>
+      <point x="7.1" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -621,7 +621,7 @@
       <name>Pad12</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.1" y="3.9"/>
+      <point x="7.0" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -630,7 +630,7 @@
       <name>Pad13</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="3.8"/>
+      <point x="7.2" y="3.8"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -639,7 +639,7 @@
       <name>Pad14</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="3.4"/>
+      <point x="7.2" y="3.4"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -1426,7 +1426,7 @@
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB1</name>
-      <point x="7.4" y="4.0"/>
+      <point x="7.3" y="4.0"/>
       <text>+5V</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1436,7 +1436,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB2</name>
-      <point x="7.4" y="4.1"/>
+      <point x="7.3" y="4.1"/>
       <text>+12V</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1446,7 +1446,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB3</name>
-      <point x="7.4" y="4.2"/>
+      <point x="7.3" y="4.2"/>
       <text>GND</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1456,7 +1456,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB4</name>
-      <point x="7.4" y="4.3"/>
+      <point x="7.3" y="4.3"/>
       <text>-12V</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1466,7 +1466,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB5</name>
-      <point x="7.4" y="4.4"/>
+      <point x="7.3" y="4.4"/>
       <text>-5V</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1506,7 +1506,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB9</name>
-      <point x="7.4" y="4.6"/>
+      <point x="7.3" y="4.6"/>
       <text>Triangle</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1516,7 +1516,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB10</name>
-      <point x="7.4" y="3.9"/>
+      <point x="7.3" y="3.9"/>
       <text>Freq &amp; CV</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1526,7 +1526,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB11</name>
-      <point x="7.4" y="3.8"/>
+      <point x="7.3" y="3.8"/>
       <text>Soft Sync</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1536,7 +1536,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB12</name>
-      <point x="7.4" y="3.4"/>
+      <point x="7.3" y="3.4"/>
       <text>Linear FM</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1877,7 +1877,7 @@
       <name>Pad15</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="7.3" y="5.2"/>
+      <point x="7.2" y="5.2"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -2418,7 +2418,7 @@
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB13</name>
-      <point x="7.4" y="5.2"/>
+      <point x="7.3" y="5.2"/>
       <text>Sine</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>

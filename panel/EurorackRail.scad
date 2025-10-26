@@ -1,4 +1,4 @@
-railHp = 54;//the length of a rail in hp
+railHp = 58;//the length of a rail in hp
 hp = 5.08;//represents of the width in mm of each unit of hp; defaults to Eurorack standard (5.08)
 
 slidingNutHeight = 5.4; //the height of the nut; defaults to the height of a common m3 square nut (5.4)
